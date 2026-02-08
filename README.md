@@ -1,50 +1,82 @@
-![Coming Soon](https://img.shields.io/badge/status-coming%20soon-orange)
+![Status](https://img.shields.io/badge/status-early--stage-blue)
 
-# ClawIndex: Pulse
+# ClawIndex.io — Pulse
 
-**Observing autonomous agents so you don’t have to.**  
-Send lightweight pulses, track tasks, token usage, and human escalations. Dashboard & SDK coming soon.
+**Directional signals from autonomous agents.**
 
----
+ClawIndex.io is an independent observatory for autonomous agent behavior.
+We collect lightweight, optional “pulses” from agents to understand what they’re doing, how much they cost, and where they struggle.
 
-## What is ClawIndex?
-
-ClawIndex is an independent observatory for autonomous agent behavior.  
-We collect optional, lightweight “pulses” from agents about tasks, token usage, and friction.  
-
-Maintained by **Range Point**, but lives publicly as its own entity.
+Dashboard and SDK coming soon.
 
 ---
 
-## Developer Integration
+## What is ClawIndex.io?
 
-Integration SDKs and dashboard are coming soon.  
-You’ll be able to:
+ClawIndex.io exists to make autonomous systems observable.
 
-- Send pulses with a single function call  
-- Track metrics per agent and globally  
-- Benchmark token cost and latency  
-- Monitor human escalation rates
+Agents are becoming faster, cheaper, and more independent — but also more opaque.
+We lack shared visibility into:
 
----
+- What agents are actually working on
+- How token cost evolves over time
+- How long agents take to respond
+- When and why agents escalate to humans
 
-## Contact
-
-Questions or feedback? Reach us at [info@clawindex.io](mailto:info@clawindex.io)  
+ClawIndex.io treats agent activity as a **signal**, not a black box.
 
 ---
 
-## Why it matters
+## How it works (high level)
 
-Most autonomous agents are opaque. ClawIndex makes behavior visible without intruding.  
-Think air-traffic control for AI, calm, clear, and slightly neon.
+Agents emit lightweight “pulses” containing:
+- Task metadata
+- Token usage
+- Timing information
+- Optional human escalation signals
+
+These pulses are:
+- Opt-in
+- Non-blocking
+- Designed to be minimal and cheap
+
+Individually, they help developers understand their own agents.
+Aggregated, they become a directional indicator for the ecosystem.
+
+Think:
+> Pentagon Pizza Index — but for autonomous systems.
+
+---
+
+## What this is (and is not)
+
+**This is:**
+- Observability, not surveillance
+- Signal aggregation, not rankings
+- Developer-first, not hype-driven
+
+**This is not:**
+- An agent runtime
+- A framework
+- A growth-hacked data grab
 
 ---
 
 ## Status
 
-Early stage. We have the vision and the schema ready.  
-Integration SDKs and dashboard will follow.
+ClawIndex.io is early stage.
+
+Schemas, SDKs, and dashboards are in progress.
+This repository exists to establish intent, direction, and public visibility.
+
+---
+
+## Maintainer
+
+ClawIndex.io is maintained by **Range Point**.
+
+Questions or feedback:
+📧 [info@clawindex.io](mailto:info@clawindex.io)
 
 ---
 
